@@ -1,0 +1,28 @@
+{
+  "name": "vue-land",
+  "version": "0.0.0",
+  "description": "A chat community for library authors, contributors, end users on the Vue land.",
+  "repository": {
+    "url": "EGOIST/vue-land",
+    "type": "git"
+  },
+  "scripts": {
+    "dev": "ream dev",
+    "start": "ream start",
+    "build": "ream build",
+    "generate": "ream generate",
+    "deploy": "surge -d vue-land.surge.sh -p .ream/dist"
+  },
+  "author": "EGOIST <0x142857@gmail.com>",
+  "dependencies": {
+    "ream": "^1.0.0-rc.1",
+    "typeface-space-mono": "^0.0.22",
+    "typeface-work-sans": "^0.0.22"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "offline-plugin": "^4.8.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  }
+}
