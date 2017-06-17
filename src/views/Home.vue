@@ -1,5 +1,8 @@
 <template>
   <div class="page container">
+    <media query="(min-width: 768px)">
+      <badge slug="egoist/vue-land" />
+    </media>
     <div class="site-brand">
       <span class="site-ins">Welcome to</span>
       <h1 class="site-title">
@@ -24,6 +27,9 @@
 </template>
 
 <script>
+import Badge from 'vue-github-badge'
+import Media from 'vue-media'
+
 export default {
   name: 'home',
   head() {
@@ -41,6 +47,10 @@ export default {
     return {
       year: new Date().getFullYear()
     }
+  },
+  components: {
+    Badge,
+    Media
   }
 }
 </script>
