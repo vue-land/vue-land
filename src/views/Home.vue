@@ -7,7 +7,7 @@
           Like Reactiflux but this is dedicated to <router-link to="/for-library">library</router-link> authors, contributors and end users on Vue Land.
         </p>
         <p>
-          Come chat about Vue, JavaScript stuffs or ask for help!
+          Can you imagine the whole Vue community fit in a single Discord server? Come chat about Vue, JavaScript stuffs or ask for help!
         </p>
       </div>
       <a class="button button-shadow" href="https://discord.gg/eKWPvZ9">Join us on Discord</a>
