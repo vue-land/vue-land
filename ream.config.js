@@ -3,7 +3,8 @@ const OfflinePlugin = require('offline-plugin')
 module.exports = {
   generate: {
     routes: {
-      '/': true
+      '/': true,
+      '/for-library': true
     }
   },
   extendWebpack(config, { dev, type }) {
