@@ -1,6 +1,6 @@
 # vue-land
 
-See https://vue-land.surge.sh
+See https://vue-land.js.org
 
 ## License
 
