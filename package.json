@@ -11,7 +11,7 @@
     "start": "ream start",
     "build": "ream build",
     "generate": "ream generate",
-    "deploy": "surge -d vue-land.surge.sh -p .ream/dist"
+    "deploy": "gh-pages -d .ream/dist"
   },
   "author": "EGOIST <0x142857@gmail.com>",
   "dependencies": {
@@ -24,6 +24,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^1.0.0",
     "offline-plugin": "^4.8.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1"
