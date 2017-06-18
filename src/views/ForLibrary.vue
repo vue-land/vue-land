@@ -4,7 +4,10 @@
     <div class="site-main">
       <div class="site-content">
         <p>
-          For popular libraries, we encourage the authors to use a sub-channel on our Discord server for chat. For example, we have a <span class="channel">#nuxtjs</span> channel for Nuxt.js while people might be also interested in server-side rendering, and we have <span class="channel">#ssr</span> channel for common SSR topics too.
+          For popular libraries, we encourage the authors to use a channel on our Discord server for users to chat. For example, we have a <span class="channel">#nuxtjs</span> channel for Nuxt.js while people might be also interested in server-side rendering, so they can use <span class="channel">#ssr</span> channel for common SSR topics too.
+        </p>
+        <p>
+          Maybe we can finally have the whole Vue community fit in a single place.
         </p>
       </div>
     </div>
