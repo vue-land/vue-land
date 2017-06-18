@@ -1,8 +1,5 @@
 <template>
   <div class="page container">
-    <media query="(min-width: 768px)">
-      <badge slug="egoist/vue-land" />
-    </media>
     <site-header />
     <div class="site-main">
       <div class="site-content">
@@ -20,8 +17,6 @@
 </template>
 
 <script>
-import Badge from 'vue-github-badge'
-import Media from 'vue-media'
 import SiteHeader from '../components/Header.vue'
 import SiteFooter from '../components/Footer.vue'
 
@@ -39,8 +34,6 @@ export default {
     }
   },
   components: {
-    Badge,
-    Media,
     SiteHeader,
     SiteFooter
   }

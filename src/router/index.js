@@ -19,6 +19,8 @@ export default () => {
     require('nprogress/nprogress.css')
     const nprogress = require('nprogress')
 
+    nprogress.configure({ showSpinner: false })
+
     router.beforeEach((from, to, next) => {
       nprogress.start()
       next()
