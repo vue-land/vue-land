@@ -171,15 +171,9 @@ async-each@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/async-each/-/async-each-1.0.1.tgz#19d386a1d9edc6e7c1c85d388aedbcc56d33602d"
 
-async@2.1.4:
+async@2.1.4, async@^2.1.2:
   version "2.1.4"
   resolved "https://registry.npmjs.org/async/-/async-2.1.4.tgz#2d2160c7788032e4dd6cbe2502f1f9a2c8f6cde4"
-  dependencies:
-    lodash "^4.14.0"
-
-async@^2.1.2:
-  version "2.4.1"
-  resolved "https://registry.npmjs.org/async/-/async-2.4.1.tgz#62a56b279c98a11d0987096a01cc3eeb8eb7bbd7"
   dependencies:
     lodash "^4.14.0"
 
@@ -4420,9 +4414,9 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vue-github-badge@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/vue-github-badge/-/vue-github-badge-1.0.0.tgz#1109a8833d5a2e69d88202cfd01d4841829418b9"
+vue-github-badge@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/vue-github-badge/-/vue-github-badge-1.0.1.tgz#dff7ce07320e64a218edf106b15a43176ec06106"
 
 vue-hot-reload-api@^2.1.0:
   version "2.1.0"
