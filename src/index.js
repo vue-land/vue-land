@@ -7,7 +7,7 @@ import './css/reset.styl'
 import App from './components/App.vue'
 
 if (process.env.NODE_ENV === 'production' && process.browser) {
-  require('./pwa')
+  require('offline-plugin/runtime').install()
 }
 
 export default {

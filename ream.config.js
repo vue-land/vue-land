@@ -11,12 +11,12 @@ module.exports = {
     if (!dev && type === 'client') {
       config.plugin('offline')
         .use(OfflinePlugin, [{
+          relativePaths: false,
+          excludes: ['CNAME', '*.json'],
           ServiceWorker: {
             events: true
           },
-          AppCache: {
-            events: true
-          }
+          AppCache: false
         }])
     }
   }
