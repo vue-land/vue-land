@@ -2,7 +2,7 @@
   <div class="poll-list" v-if="polls.length > 0">
     <div class="poll-item" v-for="poll in polls">
       <h2 class="poll-title">
-        <a :href="poll.url">{{ poll.title }}</a>
+        <a :href="poll.url">{{ getTitle(poll.title) }}</a>
       </h2>
       <div class="poll-body" v-html="toHTML(poll.body)"></div>
     </div>
@@ -32,6 +32,9 @@ export default {
     },
     toHTML(text) {
       return marked(text)
+    },
+    getTitle(title) {
+      return title.replace(/^\[poll]\s+/, '')
     }
   },
   components: {
