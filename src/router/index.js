@@ -12,6 +12,9 @@ export default () => {
     }, {
       path: '/for-library',
       component: resolve => require(['../views/ForLibrary.vue'], resolve)
+    }, {
+      path: '/polls',
+      component: resolve => require(['../views/Polls.vue'], resolve)
     }]
   })
 

@@ -11,21 +11,26 @@
     "start": "ream start",
     "build": "ream build",
     "generate": "ream generate",
-    "deploy": "gh-pages -d .ream/dist"
+    "gh": "gh-pages -d .ream/dist",
+    "deploy": "npm run generate && npm run gh"
   },
   "author": "EGOIST <0x142857@gmail.com>",
   "dependencies": {
+    "axios": "^0.16.2",
+    "marked3": "^0.4.0",
     "nprogress": "^0.2.0",
     "ream": "^1.0.0-rc.1",
     "typeface-space-mono": "^0.0.22",
     "typeface-work-sans": "^0.0.22",
     "vue-github-badge": "^1.0.1",
-    "vue-media": "^1.0.0"
+    "vue-inline": "^1.0.1",
+    "vue-media": "^1.0.0",
+    "vue-no-ssr": "^0.1.2"
   },
   "license": "MIT",
   "devDependencies": {
     "gh-pages": "^1.0.0",
-    "offline-plugin": "^4.8.1",
+    "raw-loader": "^0.5.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1"
   }
