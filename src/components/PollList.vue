@@ -2,7 +2,7 @@
   <div class="poll-list" v-if="polls.length > 0">
     <div class="poll-item" v-for="poll in polls">
       <h2 class="poll-title">
-        <a :href="poll.url">{{ getTitle(poll.title) }}</a>
+        <a :href="poll.html_url">{{ getTitle(poll.title) }}</a>
       </h2>
       <div class="poll-body" v-html="toHTML(poll.body)"></div>
     </div>
@@ -24,7 +24,6 @@ export default {
   },
   created() {
     this.fetchList()
-    console.log('xxx')
   },
   methods: {
     async fetchList() {
