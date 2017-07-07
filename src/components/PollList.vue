@@ -24,6 +24,7 @@ export default {
   },
   created() {
     this.fetchList()
+    console.log('xxx')
   },
   methods: {
     async fetchList() {
@@ -43,7 +44,7 @@ export default {
 }
 </script>
 
-<style scoped lang="stylus">
+<style lang="stylus" scoped>
 .poll-title
   font-size: 1.25rem
 
