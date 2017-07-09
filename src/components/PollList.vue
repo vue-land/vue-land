@@ -47,6 +47,9 @@ export default {
 .poll-title
   font-size: 1.25rem
 
+.poll-body
+  font-size: 1rem
+
 .poll-loading
   >>> svg
     fill: #dd1d64
