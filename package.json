@@ -11,7 +11,7 @@
     "start": "ream start",
     "build": "ream build",
     "generate": "ream generate",
-    "gh": "gh-pages -d .ream/dist",
+    "gh": "gh-pages -d .ream/generated",
     "deploy": "npm run generate && npm run gh"
   },
   "author": "EGOIST <0x142857@gmail.com>",
