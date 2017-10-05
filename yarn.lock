@@ -3622,9 +3622,9 @@ readdirp@^2.0.0:
     readable-stream "^2.0.2"
     set-immediate-shim "^1.0.1"
 
-ream-core@^2.0.0-alpha.6:
-  version "2.0.0-alpha.6"
-  resolved "https://registry.npmjs.org/ream-core/-/ream-core-2.0.0-alpha.6.tgz#5e7b7d3408b1ab91619fbc2d3c2d57bb389dd631"
+ream-core@^2.0.0-alpha.7:
+  version "2.0.0-alpha.7"
+  resolved "https://registry.npmjs.org/ream-core/-/ream-core-2.0.0-alpha.7.tgz#51de9640bf05c2d2c60a6e97c21a9f428897f991"
   dependencies:
     babel-core "^6.25.0"
     babel-loader "^7.1.1"
@@ -3671,12 +3671,12 @@ ream-renderer-vue@next:
     webpack-handle-css-loader "^2.0.1"
 
 ream@next:
-  version "2.0.0-alpha.6"
-  resolved "https://registry.npmjs.org/ream/-/ream-2.0.0-alpha.6.tgz#46b4f0cebe2b55dad3e4eddb558eb29d8e5fa3e8"
+  version "2.0.0-alpha.7"
+  resolved "https://registry.npmjs.org/ream/-/ream-2.0.0-alpha.7.tgz#b89e9e9550b8cc91dfa26e0a4867f1415efd376c"
   dependencies:
     cac "^4.2.0"
     express "^4.15.3"
-    ream-core "^2.0.0-alpha.6"
+    ream-core "^2.0.0-alpha.7"
 
 redent@^2.0.0:
   version "2.0.0"
