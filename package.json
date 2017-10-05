@@ -11,7 +11,7 @@
     "start": "ream start",
     "build": "ream build",
     "generate": "ream generate",
-    "gh": "gh-pages -d .ream/generated",
+    "gh": "push-dir --dir .ream/generated --branch gh-pages --force",
     "deploy": "npm run generate && npm run gh"
   },
   "author": "EGOIST <0x142857@gmail.com>",
@@ -30,7 +30,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "gh-pages": "^1.0.0",
     "raw-loader": "^0.5.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1"
