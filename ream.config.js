@@ -1,21 +1,8 @@
-const OfflinePlugin = require('offline-plugin')
+const Renderer = require('ream-renderer-vue')
 
 module.exports = {
+  renderer: new Renderer(),
   generate: {
     routes: ['/', '/for-library', '/polls']
-  },
-  extendWebpack(config, { dev, type }) {
-    if (!dev && type === 'client') {
-      config.plugin('offline')
-        .use(OfflinePlugin, [{
-          relativePaths: false,
-          responseStrategy: 'network-first',
-          excludes: ['CNAME', '*.json'],
-          ServiceWorker: {
-            events: true
-          },
-          AppCache: false
-        }])
-    }
   }
 }
