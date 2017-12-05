@@ -30,6 +30,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "push-dir": "^0.4.1",
     "raw-loader": "^0.5.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1"
