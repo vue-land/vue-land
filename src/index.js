@@ -8,5 +8,5 @@ import App from './components/App.vue'
 
 export default {
   createRouter,
-  App
+  RootComponent: App
 }
