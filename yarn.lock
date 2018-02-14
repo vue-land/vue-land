@@ -3847,9 +3847,9 @@ readdirp@^2.0.0:
     readable-stream "^2.0.2"
     set-immediate-shim "^1.0.1"
 
-ream@^3.0.0-alpha.4:
-  version "3.0.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/ream/-/ream-3.0.0-alpha.4.tgz#a9d191902d3ab70ef9cb4404a75d142608659e93"
+ream@^3.0.0-alpha.5:
+  version "3.0.0-alpha.5"
+  resolved "https://registry.yarnpkg.com/ream/-/ream-3.0.0-alpha.5.tgz#e6e5d9a76593d3ceca9b4250e238159d224b4d7f"
   dependencies:
     "@babel/core" "^7.0.0-beta.39"
     babel-loader "^8.0.0-beta.0"
