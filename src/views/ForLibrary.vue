@@ -22,7 +22,7 @@ import SiteFooter from '../components/Footer.vue'
 export default {
   head() {
     return {
-      title: 'For Library - Vue Land'
+      title: 'For Library'
     }
   },
   components: {

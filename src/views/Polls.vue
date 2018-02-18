@@ -19,7 +19,7 @@ import PollList from '../components/PollList.vue'
 export default {
   head() {
     return {
-      title: 'Polls - Vue Land'
+      title: 'Polls'
     }
   },
   components: {

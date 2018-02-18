@@ -24,7 +24,6 @@ export default {
   name: 'home',
   head() {
     return {
-      title: 'Vue Land',
       meta: [
         {
           name: 'description',
