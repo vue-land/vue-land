@@ -13,7 +13,6 @@ import Media from 'vue-media'
 
 export default {
   head: {
-    title: null,
     titleTemplate(title) {
       return title ? `${title} - Vue Land` : 'Vue Land'
     }
