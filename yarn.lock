@@ -744,9 +744,9 @@ babel-plugin-transform-vue-jsx@^3.5.0:
   dependencies:
     esutils "^2.0.2"
 
-babel-preset-ream@^3.0.0-rc.1:
-  version "3.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/babel-preset-ream/-/babel-preset-ream-3.0.0-rc.1.tgz#e93ddee84a857858025e734bf6589d0e9fe05e72"
+babel-preset-ream@^3.0.0-rc.2:
+  version "3.0.0-rc.2"
+  resolved "https://registry.yarnpkg.com/babel-preset-ream/-/babel-preset-ream-3.0.0-rc.2.tgz#f39ee77b2c6ed05786073fb427b95a382885fd7f"
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.0.0-beta.40"
     "@babel/plugin-proposal-object-rest-spread" "^7.0.0-beta.40"
@@ -3762,14 +3762,14 @@ readdirp@^2.0.0:
     readable-stream "^2.0.2"
     set-immediate-shim "^1.0.1"
 
-ream@^3.0.0-rc.1:
-  version "3.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/ream/-/ream-3.0.0-rc.1.tgz#71f965f976d6c2b0be37580ab872eb7344cd8067"
+ream@^3.0.0-rc.3:
+  version "3.0.0-rc.3"
+  resolved "https://registry.yarnpkg.com/ream/-/ream-3.0.0-rc.3.tgz#87b57691300f83ef04621187656f7e175f6d7f39"
   dependencies:
     "@babel/core" "^7.0.0-beta.39"
     async-to-gen "^1.4.0"
     babel-loader "^8.0.0-beta.0"
-    babel-preset-ream "^3.0.0-rc.1"
+    babel-preset-ream "^3.0.0-rc.2"
     cac "^4.4.1"
     chalk "^2.3.1"
     chokidar "^2.0.1"
