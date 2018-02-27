@@ -18,7 +18,13 @@ export default () => {
     }, {
       path: '/guideline',
       component: () => import('../views/Guideline.vue')
-    }]
+    }],
+    scrollBehavior (to, from, savedPosition) {
+      if (savedPosition) {
+        return savedPosition
+      }
+      return { x: 0, y: 0 }
+    }
   })
 
   if (process.browser) {
