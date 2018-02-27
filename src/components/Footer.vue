@@ -1,6 +1,6 @@
 <template>
   <div class="site-footer">
-    &copy; {{ year }} Vue Land • <router-link to="/polls">Polls</router-link>
+    &copy; {{ year }} Vue Land • <router-link to="/guideline">Guideline</router-link> • <router-link to="/polls">Polls</router-link>
   </div>
 </template>
 

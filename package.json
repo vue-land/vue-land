@@ -30,6 +30,8 @@
     "push-dir": "^0.4.1",
     "raw-loader": "^0.5.1",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1"
+    "stylus-loader": "^3.0.1",
+    "vmark": "^0.1.2",
+    "vmark-loader": "^0.2.0"
   }
 }

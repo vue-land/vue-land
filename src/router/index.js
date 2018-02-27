@@ -8,13 +8,16 @@ export default () => {
     mode: 'history',
     routes: [{
       path: '/',
-      component: resolve => require(['../views/Home.vue'], resolve)
+      component: () => import('../views/Home.vue')
     }, {
       path: '/for-library',
-      component: resolve => require(['../views/ForLibrary.vue'], resolve)
+      component: () => import('../views/ForLibrary.vue')
     }, {
       path: '/polls',
-      component: resolve => require(['../views/Polls.vue'], resolve)
+      component: () => import('../views/Polls.vue')
+    }, {
+      path: '/guideline',
+      component: () => import('../views/Guideline.vue')
     }]
   })
 

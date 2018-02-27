@@ -22,16 +22,6 @@ import SiteFooter from '../components/Footer.vue'
 
 export default {
   name: 'home',
-  head() {
-    return {
-      meta: [
-        {
-          name: 'description',
-          content: 'A chat community for library authors, contributors, end users on the Vue land.'
-        }
-      ]
-    }
-  },
   components: {
     SiteHeader,
     SiteFooter
