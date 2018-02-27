@@ -4,7 +4,7 @@
     <div class="site-main">
       <div class="site-content">
         <p>
-          For popular libraries, we encourage the authors to use a channel on our Discord server for users to chat. For example, we have a <span class="channel">#nuxtjs</span> channel for Nuxt.js while people might be also interested in server-side rendering, so they can use <span class="channel">#ssr</span> channel for common SSR topics too.
+          For popular libraries, we encourage the authors to use a channel on our Discord server for users to chat. For example, we have a <channel name="nuxtjs" /> channel for Nuxt.js while people might be also interested in server-side rendering, so they can use <channel name="ssr" /> channel for common SSR topics too.
         </p>
         <p>
           Maybe we can finally have the whole Vue community fit in a single place.
@@ -18,6 +18,7 @@
 <script>
 import SiteHeader from '../components/Header.vue'
 import SiteFooter from '../components/Footer.vue'
+import Channel from '../components/Channel.vue'
 
 export default {
   head() {
@@ -27,13 +28,8 @@ export default {
   },
   components: {
     SiteHeader,
-    SiteFooter
+    SiteFooter,
+    Channel
   }
 }
 </script>
-
-<style lang="stylus" scoped>
-  .channel
-    color: #808080
-</style>
-
