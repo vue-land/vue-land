@@ -1,5 +1,5 @@
 <template>
-  <div class="app">
+  <div id="app">
     <media query="(min-width: 768px)">
       <badge slug="egoist/vue-land" />
     </media>
