@@ -8,8 +8,8 @@ See https://vue-land.js.org
 # dev
 yarn dev
 
-# build static pages
-yarn build
+# generate static pages
+yarn generate
 
 # build and push to gh-pages
 yarn deploy
