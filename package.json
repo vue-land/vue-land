@@ -7,10 +7,10 @@
     "type": "git"
   },
   "scripts": {
-    "dev": "poi",
-    "build": "poi build",
-    "gh": "gh-pages -d dist",
-    "deploy": "npm run build && npm run gh"
+    "dev": "ream dev",
+    "generate": "ream generate",
+    "gh": "gh-pages -d .ream/generated",
+    "deploy": "npm run generate && npm run gh"
   },
   "author": "EGOIST <0x142857@gmail.com>",
   "dependencies": {
@@ -22,19 +22,16 @@
     "vue-github-badge": "^1.0.1",
     "vue-inline": "^1.0.1",
     "vue-media": "^1.0.0",
-    "vue-meta": "^1.5.0",
-    "vue-no-ssr": "^0.1.2",
-    "vue-router": "^3.0.1"
+    "vue-no-ssr": "^0.1.2"
   },
   "license": "MIT",
   "devDependencies": {
-    "@poi/plugin-vue-static": "^1.0.4",
     "gh-pages": "^1.1.0",
-    "poi": "^10.0.2",
     "raw-loader": "^0.5.1",
+    "ream": "github:ream/ream",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
-    "vmark": "^0.1.2",
-    "vmark-loader": "^0.2.0"
+    "vmark": "^1.0.1",
+    "vmark-loader": "^1.0.0"
   }
 }

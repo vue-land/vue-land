@@ -11,7 +11,7 @@
 <script>
 import SiteHeader from '../components/Header.vue'
 import SiteFooter from '../components/Footer.vue'
-import GuidelineContent from '!vmark-loader!../markdown/guideline.md'
+import GuidelineContent from '../markdown/guideline.md'
 
 export default {
   name: 'guideline',
