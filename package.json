@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "ream dev",
     "generate": "ream generate",
-    "gh": "gh-pages -d .ream/generated",
+    "gh": "gh-pages -d .ream/generated -t",
     "deploy": "npm run generate && npm run gh"
   },
   "author": "EGOIST <0x142857@gmail.com>",
