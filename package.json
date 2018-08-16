@@ -28,7 +28,7 @@
   "devDependencies": {
     "gh-pages": "^1.1.0",
     "raw-loader": "^0.5.1",
-    "ream": "ream/ream",
+    "ream": "ream/ream#dev",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "vmark": "^1.0.1",

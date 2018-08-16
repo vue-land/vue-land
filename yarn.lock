@@ -4105,9 +4105,9 @@ readdirp@^2.0.0:
     readable-stream "^2.0.2"
     set-immediate-shim "^1.0.1"
 
-ream@ream/ream:
-  version "3.2.6"
-  resolved "https://codeload.github.com/ream/ream/tar.gz/1219b48e6ed0bdbf1040f6eaf92d19181622daea"
+ream@ream/ream#dev:
+  version "4.0.0-beta.0"
+  resolved "https://codeload.github.com/ream/ream/tar.gz/6ec3661ce852308917a0e96f2dcbbb1e77fc12fe"
   dependencies:
     "@babel/core" "^7.0.0-beta.47"
     "@babel/plugin-proposal-class-properties" "^7.0.0-beta.47"
