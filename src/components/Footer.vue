@@ -1,6 +1,6 @@
 <template>
   <div class="site-footer">
-    &copy; {{ year }} Vue Land • <router-link to="/q-and-a">Q&A sessions</router-link> • <router-link to="/guideline">Guideline</router-link> • <router-link to="/polls">Polls</router-link>
+    &copy; {{ year }} VueLand &bull; <router-link to="/q-and-a">Q&A sessions</router-link> &bull; <router-link to="/guideline">Guideline</router-link> &bull; <router-link to="/polls">Polls</router-link> &bull; <a href="https://twitter.com/VueLandDiscord">Twitter</a>
   </div>
 </template>
 
