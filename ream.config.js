@@ -6,9 +6,9 @@ module.exports = {
       "/for-library",
       "/polls",
       "/guideline",
-      "/q-and-a/",
-      "/q-and-a/01-guillaume-chau-evan-you",
-      "/q-and-a/02-damian-dulisz-chris-fritz"
+      "/q-and-a",
+      "/01-guillaume-chau-evan-you",
+      "/02-damian-dulisz-chris-fritz"
     ]
   },
   chainWebpack(config) {

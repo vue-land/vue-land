@@ -34,11 +34,11 @@ export default () => {
         component: () => import("../views/QandA.vue")
       },
       {
-        path: "/q-and-a/01-guillaume-chau-evan-you",
+        path: "/01-guillaume-chau-evan-you",
         component: () => import("../views/Qa01.vue")
       },
       {
-        path: "/q-and-a/02-damian-dulisz-chris-fritz",
+        path: "/02-damian-dulisz-chris-fritz",
         component: () => import("../views/Qa02.vue")
       }
     ]
