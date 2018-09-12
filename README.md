@@ -17,7 +17,7 @@ yarn deploy
 
 To add a QA:
 
-- Add a markdown file in `./src/markdown` using `:id-:persons.md` format.
+- Add a markdown file in `./src/markdown/q-and-a` using `:id-:persons.md` format.
 - Add a link to the QA in `./src/views/QandA.vue`. (TODO: make this automatic)
 
 ## License
