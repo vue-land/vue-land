@@ -16,6 +16,7 @@
   "author": "EGOIST <0x142857@gmail.com>",
   "dependencies": {
     "axios": "^0.16.2",
+    "fast-glob": "^2.2.2",
     "marked3": "^0.4.0",
     "nprogress": "^0.2.0",
     "typeface-space-mono": "^0.0.22",

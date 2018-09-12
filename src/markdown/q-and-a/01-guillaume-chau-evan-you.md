@@ -576,9 +576,13 @@ I just missed the whole thing didn't I...
 Yes you did, so next time be sure to join us on time everyone. ;)
 
 <script>
-import Guest from '../components/Guest.vue'
+import Guest from '@/components/Guest.vue'
 
 export default {
+  head: {
+    title: 'Q&A 01 - Vue CLI 3 with Guillaume Chau and Evan You'
+  },
+  
   components: {
     Guest
   }

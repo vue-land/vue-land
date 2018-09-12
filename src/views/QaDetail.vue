@@ -2,7 +2,9 @@
   <div class="page container">
     <site-header />
     <div class="site-main">
-      <div class="site-content"><qa-content /></div>
+      <div class="site-content">
+        <component :is="QaContent" />
+      </div>
     </div>
     <site-footer />
   </div>
@@ -11,17 +13,18 @@
 <script>
 import SiteHeader from '../components/Header.vue'
 import SiteFooter from '../components/Footer.vue'
-import QaContent from '../markdown/qa02.md'
 
 export default {
-  name: 'q-and-a-01',
-  head: {
-    title: 'Q&A 02 - best practices with Damian Dulisz and Chris Fritz'
-  },
+  name: 'q-and-a-detail',
   components: {
     SiteHeader,
-    SiteFooter,
-    QaContent
+    SiteFooter
+  },
+  computed: {
+    QaContent() {
+      const id = this.$route.params.slug
+      return () => import(`../markdown/q-and-a/${id}.md`)
+    }
   }
 }
 </script>

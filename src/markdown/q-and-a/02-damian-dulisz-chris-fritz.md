@@ -608,9 +608,13 @@ The chat transcript is always available in here #q-and-a channel, since it'll st
 You can also find them at https://vue-land.js.org.
 
 <script>
-import Guest from '../components/Guest.vue'
+import Guest from '@/components/Guest.vue'
 
 export default {
+  head: {
+    title: 'Q&A 02 - best practices with Damian Dulisz and Chris Fritz'
+  },
+  
   components: {
     Guest
   }

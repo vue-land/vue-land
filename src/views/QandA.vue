@@ -9,11 +9,11 @@
 
         <p>You can find the transcriptions from our previous events below:</p>
         <p>
-          #01 - <router-link to="/01-guillaume-chau-evan-you">Vue CLI 3 with Guillaume Chau and Evan You</router-link>
+          #01 - <router-link to="/q-and-a/01-guillaume-chau-evan-you">Vue CLI 3 with Guillaume Chau and Evan You</router-link>
           <small>August the 18th, 2018</small>
         </p>
         <p>
-          #02 - <router-link to="/02-damian-dulisz-chris-fritz">Best practices with Damian Dulisz and Chris Fritz</router-link>
+          #02 - <router-link to="/q-and-a/02-damian-dulisz-chris-fritz">Best practices with Damian Dulisz and Chris Fritz</router-link>
           <small>September the 8th, 2018</small>
         </p>
       </div>
