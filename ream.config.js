@@ -20,5 +20,10 @@ module.exports = {
       .end()
       .use('vmark-loader')
       .loader('vmark-loader')
+      .options({
+        markdown: {
+          linkify: true
+        }
+      })
   }
 }
