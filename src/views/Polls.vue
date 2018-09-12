@@ -34,4 +34,3 @@ export default {
 <style lang="stylus" scoped>
 
 </style>
-

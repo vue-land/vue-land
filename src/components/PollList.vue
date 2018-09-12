@@ -56,7 +56,11 @@ export default {
   methods: {
     async fetchList() {
       this.loading = true
-      const { data } = await axios.get(`https://api.github.com/repos/egoist/vue-land/issues?labels=poll&state=${this.state}`)
+      const { data } = await axios.get(
+        `https://api.github.com/repos/egoist/vue-land/issues?labels=poll&state=${
+          this.state
+        }`
+      )
       this.polls = data
       this.loading = false
     },

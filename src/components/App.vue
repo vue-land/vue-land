@@ -19,13 +19,14 @@ export default {
     meta: [
       {
         name: 'description',
-        content: 'A chat community for library authors, contributors, end users on the Vue land.'
+        content:
+          'A chat community for library authors, contributors, end users on the Vue land.'
       }
     ]
   },
   components: {
     Badge,
-    Media,
+    Media
   }
 }
 </script>

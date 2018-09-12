@@ -23,21 +23,21 @@
 </template>
 
 <script>
-import SiteHeader from "../components/Header.vue";
-import SiteFooter from "../components/Footer.vue";
-import Channel from "../components/Channel.vue";
+import SiteHeader from '../components/Header.vue'
+import SiteFooter from '../components/Footer.vue'
+import Channel from '../components/Channel.vue'
 
 export default {
-  name: "q-and-a",
+  name: 'q-and-a',
   head: {
-    title: "Q&A sessions"
+    title: 'Q&A sessions'
   },
   components: {
     SiteHeader,
     SiteFooter,
     Channel
   }
-};
+}
 </script>
 
 <style lang="stylus" scoped>
