@@ -8,5 +8,5 @@ import App from './components/App.vue'
 
 export default () => ({
   router: createRouter(),
-  root: App
+  render: h => h(App)
 })
