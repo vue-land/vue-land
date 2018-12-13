@@ -5,11 +5,11 @@ See https://vue-land.js.org
 ## Development
 
 ```bash
-# dev
+# dev server
 yarn dev
 
-# generate static pages
-yarn generate
+# build static website
+yarn build
 
 # build and push to gh-pages
 yarn deploy
