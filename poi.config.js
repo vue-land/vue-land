@@ -7,7 +7,7 @@ module.exports = {
   entry: 'src/index.js',
   plugins: [
     {
-      resolve: '@poi/plugin-vue-static',
+      resolve: '@poi/vue-static',
       options: {
         staticRoutes: [
           '/',
