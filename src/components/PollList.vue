@@ -20,7 +20,7 @@
         Closed
       </router-link>
     </div>
-    <div class="poll-list" v-if="polls.length > 0">
+    <div class="poll-list" v-if="!loading && polls.length > 0">
       <div class="poll-item" v-for="poll in polls" :key="poll.id">
         <h2 class="poll-title">
           <a :href="poll.html_url">{{ getTitle(poll.title) }}</a>
