@@ -34,7 +34,7 @@
 
 <script>
 import axios from 'axios'
-import marked from 'marked3'
+import marked from 'marked'
 import SvgIcon from './SvgIcon'
 
 export default {

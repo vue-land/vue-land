@@ -16,8 +16,7 @@
   "author": "EGOIST <0x142857@gmail.com>",
   "dependencies": {
     "axios": "^0.16.2",
-    "fast-glob": "^2.2.2",
-    "marked3": "^0.4.0",
+    "marked": "^0.5.2",
     "nprogress": "^0.2.0",
     "typeface-space-mono": "^0.0.22",
     "typeface-work-sans": "^0.0.22",
@@ -31,11 +30,12 @@
   "license": "MIT",
   "devDependencies": {
     "@poi/plugin-vue-static": "^12.0.3",
+    "fast-glob": "^2.2.4",
     "gh-pages": "^1.1.0",
     "husky": "^1.0.0-rc.14",
     "lint-staged": "^7.2.2",
     "poi": "^12.0.5",
-    "prettier": "^1.14.2",
+    "prettier": "^1.15.3",
     "raw-loader": "^0.5.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
@@ -44,7 +44,7 @@
     "vue-template-compiler": "^2.5.21"
   },
   "lint-staged": {
-    "*.{js,vue}": [
+    "*.{js,vue,md}": [
       "prettier --write",
       "git add"
     ]
