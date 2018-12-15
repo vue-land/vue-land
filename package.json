@@ -11,7 +11,7 @@
     "build": "poi --prod",
     "gh": "gh-pages -d dist -t",
     "deploy": "npm run build && npm run gh",
-    "format": "prettier --write **/*.{js,vue}"
+    "format": "prettier --write **/*.{js,vue,md}"
   },
   "author": "EGOIST <0x142857@gmail.com>",
   "dependencies": {

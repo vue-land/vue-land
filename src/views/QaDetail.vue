@@ -2,9 +2,7 @@
   <div class="page container">
     <site-header />
     <div class="site-main">
-      <div class="site-content">
-        <component :is="QaContent" />
-      </div>
+      <div class="site-content"><component :is="QaContent" /></div>
     </div>
     <site-footer />
   </div>

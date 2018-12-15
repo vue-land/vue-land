@@ -3,20 +3,23 @@
     <div class="tags">
       <router-link
         class="tag"
-        :class="{active: state === 'all'}"
-        :to="{query: {state: 'all'}}">
+        :class="{ active: state === 'all' }"
+        :to="{ query: { state: 'all' } }"
+      >
         All
       </router-link>
       <router-link
         class="tag"
-        :class="{active: state === 'open'}"
-        :to="{query: {state: 'open'}}">
+        :class="{ active: state === 'open' }"
+        :to="{ query: { state: 'open' } }"
+      >
         Open
       </router-link>
       <router-link
         class="tag"
-        :class="{active: state === 'closed'}"
-        :to="{query: {state: 'closed'}}">
+        :class="{ active: state === 'closed' }"
+        :to="{ query: { state: 'closed' } }"
+      >
         Closed
       </router-link>
     </div>

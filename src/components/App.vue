@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <media query="(min-width: 768px)">
-      <badge slug="egoist/vue-land" />
-    </media>
+    <media query="(min-width: 768px)"> <badge slug="egoist/vue-land" /> </media>
     <router-view />
   </div>
 </template>

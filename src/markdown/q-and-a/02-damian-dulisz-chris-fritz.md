@@ -136,11 +136,11 @@ I don't see why they'd want to be removed anyway, they seem to work perfectly th
 
 **chrisng**
 
-Is using this.$emit('update:model', newValue) inside child component to update parent data considered bad practice?
+Is using this.\$emit('update:model', newValue) inside child component to update parent data considered bad practice?
 
 <guest name="Chris Fritz" />
 
-Nope, not considered a bad practice. The key is that it is that the nature of the interaction is still obvious in both components, so there's no implicit interference, like with patterns such as this.$parent.
+Nope, not considered a bad practice. The key is that it is that the nature of the interaction is still obvious in both components, so there's no implicit interference, like with patterns such as this.\$parent.
 
 <guest name="Damian Dulisz" />
 
@@ -150,7 +150,7 @@ I agree with Chrtis on this. As long as you manage separate methods for that it 
 
 **figwit**
 
-What's a best practice pattern for reacting to an event in a component that has only a distant ancestor (basically, non-parent) in common with the component that emitted? I've used a pattern with Vuex that, via an action (say, trigger()) sets some state Boolean, awaits the $nextTick, and then resets the Boolean.
+What's a best practice pattern for reacting to an event in a component that has only a distant ancestor (basically, non-parent) in common with the component that emitted? I've used a pattern with Vuex that, via an action (say, trigger()) sets some state Boolean, awaits the \$nextTick, and then resets the Boolean.
 
 This gives interested components one tick to react to the Boolean switch via, say, a watch. Is there a simpler or more idiomatic way?
 
@@ -166,7 +166,7 @@ Thanks. Yep, I've seen that in your vue-enterprise-boilerplate project. :) That 
 
 <guest name="Damian Dulisz" />
 
-That’s a tricky question! I guess it might strongly depend on what the event triggers. Try thinking about it not as an event but as a change to the underlaying data and how it affects the state of those components? Also, you might use this.$root in more simple cases to listen and emit events.
+That’s a tricky question! I guess it might strongly depend on what the event triggers. Try thinking about it not as an event but as a change to the underlaying data and how it affects the state of those components? Also, you might use this.\$root in more simple cases to listen and emit events.
 
 **figwit**
 
@@ -360,7 +360,7 @@ Yep, state changes are batched, so as soon as a synchronous group of state chang
 
 <guest name="Damian Dulisz" />
 
-From what I remember from the source code – Vue will wait for all sync things to update before it re-renders. Then $nextTick is called.
+From what I remember from the source code – Vue will wait for all sync things to update before it re-renders. Then \$nextTick is called.
 
 **chrisng**
 
@@ -401,7 +401,7 @@ I personally like using an event bus, but quite often it’s not needed since it
 
 <guest name="Chris Fritz" />
 
-The main downsides of an event bus is you get a lot of state change happening without clear trails of what emitted an event or what changes that event resulted in, making the app increasingly difficult to debug. I never use, for any purpose. For an equally simple pattern, I recommend managing state on a root instance using this.$root instead.
+The main downsides of an event bus is you get a lot of state change happening without clear trails of what emitted an event or what changes that event resulted in, making the app increasingly difficult to debug. I never use, for any purpose. For an equally simple pattern, I recommend managing state on a root instance using this.\$root instead.
 
 ---
 
