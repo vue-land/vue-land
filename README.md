@@ -10,10 +10,9 @@ yarn dev
 
 # build static website
 yarn build
-
-# build and push to gh-pages
-yarn deploy
 ```
+
+The website is automatically deployed to Netlify.
 
 To add a QA:
 

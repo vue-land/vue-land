@@ -9,8 +9,6 @@
   "scripts": {
     "dev": "poi --serve",
     "build": "poi --prod",
-    "gh": "gh-pages -d dist -t",
-    "deploy": "npm run build && npm run gh",
     "format": "prettier --write **/*.{js,vue,md}"
   },
   "author": "EGOIST <0x142857@gmail.com>",
@@ -31,7 +29,6 @@
   "devDependencies": {
     "@poi/plugin-vue-static": "^12.0.3",
     "fast-glob": "^2.2.4",
-    "gh-pages": "^1.1.0",
     "husky": "^1.0.0-rc.14",
     "lint-staged": "^7.2.2",
     "poi": "^12.0.5",
