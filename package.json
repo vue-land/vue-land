@@ -7,8 +7,8 @@
     "type": "git"
   },
   "scripts": {
-    "dev": "poi --serve",
-    "build": "poi --prod",
+    "dev": "saber",
+    "generate": "saber generate",
     "format": "prettier --write **/*.{js,vue,md}"
   },
   "author": "EGOIST <0x142857@gmail.com>",
@@ -16,29 +16,24 @@
     "axios": "^0.16.2",
     "marked": "^0.5.2",
     "nprogress": "^0.2.0",
+    "saber": "^0.2.11",
+    "tinydate": "^1.0.1",
     "typeface-space-mono": "^0.0.22",
     "typeface-work-sans": "^0.0.22",
-    "vue": "^2.5.21",
     "vue-github-badge": "^1.0.1",
     "vue-inline": "^1.0.1",
     "vue-media": "^1.0.0",
-    "vue-no-ssr": "^0.1.2",
-    "vue-router": "^3.0.2"
+    "vue-no-ssr": "^0.1.2"
   },
   "license": "MIT",
   "devDependencies": {
-    "@poi/plugin-vue-static": "^12.0.5",
     "fast-glob": "^2.2.4",
     "husky": "^1.0.0-rc.14",
     "lint-staged": "^7.2.2",
-    "poi": "^12.4.2",
     "prettier": "^1.15.3",
     "raw-loader": "^0.5.1",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2",
-    "vmark": "^1.0.1",
-    "vmark-loader": "^1.0.0",
-    "vue-template-compiler": "^2.5.21"
+    "stylus-loader": "^3.0.2"
   },
   "lint-staged": {
     "*.{js,vue,md}": [

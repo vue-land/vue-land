@@ -1,27 +1,27 @@
 <template>
   <div class="page">
     <div class="tags">
-      <router-link
+      <saber-link
         class="tag"
         :class="{ active: state === 'all' }"
         :to="{ query: { state: 'all' } }"
       >
         All
-      </router-link>
-      <router-link
+      </saber-link>
+      <saber-link
         class="tag"
         :class="{ active: state === 'open' }"
         :to="{ query: { state: 'open' } }"
       >
         Open
-      </router-link>
-      <router-link
+      </saber-link>
+      <saber-link
         class="tag"
         :class="{ active: state === 'closed' }"
         :to="{ query: { state: 'closed' } }"
       >
         Closed
-      </router-link>
+      </saber-link>
     </div>
     <div class="poll-list" v-if="!loading && polls.length > 0">
       <div class="poll-item" v-for="poll in polls" :key="poll.id">

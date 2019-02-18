@@ -1,6 +1,8 @@
-# Q&A 02 - Best practices
-
-## Damian Dulisz and Chris Fritz
+---
+title: Best practices with Damian Dulisz and Chris Fritz
+layout: page
+date: 2018-09-18
+---
 
 **Moderator**
 
@@ -606,17 +608,3 @@ Thanks! Where are or will be the chat transcriptions?
 The chat transcript is always available in here #q-and-a channel, since it'll stay as read only until next Q&A.
 
 You can also find them at https://vue-land.js.org.
-
-<script>
-import Guest from '@/components/Guest.vue'
-
-export default {
-  head: {
-    title: 'Q&A 02 - best practices with Damian Dulisz and Chris Fritz'
-  },
-  
-  components: {
-    Guest
-  }
-}
-</script>

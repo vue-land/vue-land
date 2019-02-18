@@ -8,16 +8,13 @@ See https://vue-land.js.org
 # dev server
 yarn dev
 
-# build static website
-yarn build
+# generate static website
+yarn generate
 ```
 
 The website is automatically deployed to Netlify.
 
-To add a QA:
-
-- Add a markdown file in `./src/markdown/q-and-a` using `:id-:persons.md` format.
-- Add a link to the QA in `./src/views/QandA.vue`. (TODO: make this automatic)
+To add a QA, you should add a markdown file in `./pages/q-and-a/` using `:id-:persons.md` format.
 
 ## License
 

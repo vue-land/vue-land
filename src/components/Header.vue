@@ -2,7 +2,7 @@
   <div class="site-header">
     <span class="site-ins">Welcome to</span>
     <h1 class="site-title">
-      <router-link to="/">Vue Land</router-link><sup class="tm">™</sup>
+      <saber-link to="/">Vue Land</saber-link><sup class="tm">™</sup>
     </h1>
   </div>
 </template>
