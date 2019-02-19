@@ -608,3 +608,15 @@ Thanks! Where are or will be the chat transcriptions?
 The chat transcript is always available in here #q-and-a channel, since it'll stay as read only until next Q&A.
 
 You can also find them at https://vue-land.js.org.
+
+<script>
+import Guest from '#theme/components/Guest.vue'
+import Channel from '#theme/components/Channel.vue'
+
+export default {
+  components: {
+    Guest,
+    Channel
+  }
+}
+</script>

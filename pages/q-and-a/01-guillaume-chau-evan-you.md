@@ -576,3 +576,13 @@ I just missed the whole thing didn't I...
 **Moderator**
 
 Yes you did, so next time be sure to join us on time everyone. ;)
+
+<script>
+import Guest from '#theme/components/Guest.vue'
+
+export default {
+  components: {
+    Guest
+  }
+}
+</script>

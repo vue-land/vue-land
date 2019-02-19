@@ -16,9 +16,7 @@
     <p>You can find the transcriptions from our previous events below:</p>
     <p v-for="qa in page.qas" :key="qa.id">
       #{{ leftPad(qa.id) }} -
-      <saber-link to="/q-and-a/01-guillaume-chau-evan-you">{{
-        qa.title
-      }}</saber-link>
+      <saber-link :to="qa.permalink">{{ qa.title }}</saber-link>
       <small>{{ formatDate(qa.date) }}</small>
     </p>
   </div>
