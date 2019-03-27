@@ -1385,10 +1385,10 @@ cli-cursor@^2.1.0:
   dependencies:
     restore-cursor "^2.0.0"
 
-cli-spinners@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.npmjs.org/cli-spinners/-/cli-spinners-1.3.1.tgz#002c1990912d0d59580c93bd36c056de99e4259a"
-  integrity sha512-1QL4544moEsDVH9T/l6Cemov/37iv1RtoKf7NJ04A60+4MREXNfx/QvavbH6QoGdsD4N4Mwy49cmaINR/o2mdg==
+cli-spinners@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/cli-spinners/-/cli-spinners-2.0.0.tgz#4b078756fc17a8f72043fdc9f1f14bf4fa87e2df"
+  integrity sha512-yiEBmhaKPPeBj7wWm4GEdtPZK940p9pl3EANIrnJ3JnvWyrPjcFcsEq6qRUuQ7fzB0+Y82ld3p6B34xo95foWw==
 
 cli-truncate@^0.2.1:
   version "0.2.1"
@@ -3234,6 +3234,11 @@ lodash.memoize@^4.1.2:
   resolved "https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
+lodash.merge@^4.6.1:
+  version "4.6.1"
+  resolved "https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.1.tgz#adc25d9cb99b9391c59624f379fbba60d7111d54"
+  integrity sha512-AOYza4+Hf5z1/0Hztxpm2/xiPZgi/cjMqdnKTUWTBSKchJlxXXuUSxCCl8rJlf4g6yww/j6mA8nC8Hw/EZWxKQ==
+
 lodash.template@^4.4.0:
   version "4.4.0"
   resolved "https://registry.npmjs.org/lodash.template/-/lodash.template-4.4.0.tgz#e73a0385c8355591746e020b99679c690e68fba0"
@@ -3803,14 +3808,14 @@ onetime@^2.0.0:
   dependencies:
     mimic-fn "^1.0.0"
 
-ora@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.npmjs.org/ora/-/ora-3.1.0.tgz#dbedd8c03b5d017fb67083e87ee52f5ec89823ed"
-  integrity sha512-vRBPaNCclUi8pUxRF/G8+5qEQkc6EgzKK1G2ZNJUIGu088Un5qIxFXeDgymvPRM9nmrcUOGzQgS1Vmtz+NtlMw==
+ora@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.npmjs.org/ora/-/ora-3.2.0.tgz#67e98a7e11f7f0ac95deaaaf11bb04de3d09e481"
+  integrity sha512-XHMZA5WieCbtg+tu0uPF8CjvwQdNzKCX6BVh3N6GFsEXH40mTk5dsw/ya1lBTUGJslcEFJFQ8cBhOgkkZXQtMA==
   dependencies:
     chalk "^2.4.2"
     cli-cursor "^2.1.0"
-    cli-spinners "^1.3.1"
+    cli-spinners "^2.0.0"
     log-symbols "^2.2.0"
     strip-ansi "^5.0.0"
     wcwidth "^1.0.1"
@@ -4701,15 +4706,15 @@ saber-markdown@^0.0.3:
   resolved "https://registry.npmjs.org/saber-markdown/-/saber-markdown-0.0.3.tgz#342a905040178cdd17766841c855c5152d120a2f"
   integrity sha512-Eu9vom2KqDY9a4/7gyU3QUG2QfLpu0+Yt48TZ5OZqW3ER77xutu7VKOJvjmIpo9ma9rgeKCpEQjYHAlpKC+bGw==
 
-saber-utils@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/saber-utils/-/saber-utils-0.0.3.tgz#c5f81dd182faf6edd6f9f1b81484c589fbe952d6"
-  integrity sha512-4spEvm0wyZ7SR81+UOnvuVWhKb7rzalzibYRqemLc57kuZLwZ4lhIE7nLMfFmnweI8m0vRq0I+aXVHEWK1ea/g==
+saber-utils@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.npmjs.org/saber-utils/-/saber-utils-0.0.4.tgz#15b5e3458445a2ef097cc2505dc3bbcbbdf32c9a"
+  integrity sha512-U3srXEi7pSj15TgJn60qkY5wsgLoTFT/8oW0iJdZUe7DAybZRZrBK9I0WLWAz0DVx0FdigBd0zQjNmvq5KfGiQ==
 
-saber@^0.2.11:
-  version "0.2.11"
-  resolved "https://registry.npmjs.org/saber/-/saber-0.2.11.tgz#9b11ab47b9666ae5b7af1d19286e0116aad34ecc"
-  integrity sha512-1GcGMOtSMOFochX58/HxOECYvyPvJCHa+BsKhNGYho+/0C+ACMMWsn8VU8400FnZTDIRUmcumrbuYPI9a7Rc+A==
+saber@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.npmjs.org/saber/-/saber-0.3.1.tgz#0c969658629be37194345b384d9df1009ebc33a4"
+  integrity sha512-0JRpZiUzfREKNgV6BTAgbIMNxkM6Lu52LpNPKDV6RFYCH9M6jEH+fSoUOs6wa/PIhNdey25E8P/f+YZF3jMSKA==
   dependencies:
     "@babel/core" "^7.2.2"
     "@babel/plugin-proposal-object-rest-spread" "^7.2.0"
@@ -4724,26 +4729,28 @@ saber@^0.2.11:
     chokidar "^2.0.4"
     css-loader "^2.1.0"
     cssnano "^4.1.8"
+    fast-deep-equal "^2.0.1"
     file-loader "^3.0.1"
     hash-sum "^1.0.2"
     joycon "^2.2.3"
+    lodash.merge "^4.6.1"
     mini-css-extract-plugin "^0.5.0"
-    ora "^3.0.0"
+    ora "^3.2.0"
     polka "^0.5.1"
     pretty-ms "^4.0.0"
     resolve-from "^4.0.0"
     saber-log "^0.1.1"
     saber-markdown "^0.0.3"
-    saber-utils "^0.0.3"
+    saber-utils "^0.0.4"
     serve-static "^1.13.2"
     superstruct "^0.6.0"
     tapable "^1.1.1"
     time-fix-plugin "^2.0.5"
     url-loader "^1.1.2"
-    vue "^2.5.21"
+    vue "^2.6.10"
     vue-loader "^15.5.1"
-    vue-server-renderer "^2.5.22"
-    vue-template-compiler "^2.5.21"
+    vue-server-renderer "^2.6.10"
+    vue-template-compiler "^2.6.10"
     webpack "^4.28.4"
     webpack-chain "^5.2.0"
     webpack-dev-middleware "^3.5.0"
@@ -5614,10 +5621,10 @@ vue-no-ssr@^0.1.2:
   resolved "https://registry.npmjs.org/vue-no-ssr/-/vue-no-ssr-0.1.3.tgz#0442b27907fa682d92c01cdd86e9982387ecca9d"
   integrity sha512-6EhzPlxCqzY+p4KlJaveIeCgZu5b51BSV7xnwegcJeSZuDh+rcsdt1DMXfsUJK7iKNyZv5Iw0Dlc4B/WBgSLRA==
 
-vue-server-renderer@^2.5.22:
-  version "2.6.6"
-  resolved "https://registry.npmjs.org/vue-server-renderer/-/vue-server-renderer-2.6.6.tgz#a2b1174cf1914817147b34789cc1a6baa0672aa1"
-  integrity sha512-dJ4IrIilS3nhxpOrR12+IKGu9Meg8L0t/W/e/UNSXKyh9EkwDqFPK0nZTfGPudXzr9FMQfg2hK6p2RMydPRU2Q==
+vue-server-renderer@^2.6.10:
+  version "2.6.10"
+  resolved "https://registry.npmjs.org/vue-server-renderer/-/vue-server-renderer-2.6.10.tgz#cb2558842ead360ae2ec1f3719b75564a805b375"
+  integrity sha512-UYoCEutBpKzL2fKCwx8zlRtRtwxbPZXKTqbl2iIF4yRZUNO/ovrHyDAJDljft0kd+K0tZhN53XRHkgvCZoIhug==
   dependencies:
     chalk "^1.1.3"
     hash-sum "^1.0.2"
@@ -5636,10 +5643,10 @@ vue-style-loader@^4.1.0:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-template-compiler@^2.5.21:
-  version "2.6.6"
-  resolved "https://registry.npmjs.org/vue-template-compiler/-/vue-template-compiler-2.6.6.tgz#a807acbf3d51971d3721d75ecb1b927b517c1a02"
-  integrity sha512-OakxDGyrmMQViCjkakQFbDZlG0NibiOzpLauOfyCUVRQc9yPmTqpiz9nF0VeA+dFkXegetw0E5x65BFhhLXO0A==
+vue-template-compiler@^2.6.10:
+  version "2.6.10"
+  resolved "https://registry.npmjs.org/vue-template-compiler/-/vue-template-compiler-2.6.10.tgz#323b4f3495f04faa3503337a82f5d6507799c9cc"
+  integrity sha512-jVZkw4/I/HT5ZMvRnhv78okGusqe0+qH2A0Em0Cp8aq78+NK9TII263CDVz2QXZsIT+yyV/gZc/j/vlwa+Epyg==
   dependencies:
     de-indent "^1.0.2"
     he "^1.1.0"
@@ -5649,10 +5656,10 @@ vue-template-es2015-compiler@^1.8.2:
   resolved "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.8.2.tgz#dd73e80ba58bb65dd7a8aa2aeef6089cf6116f2a"
   integrity sha512-cliV19VHLJqFUYbz/XeWXe5CO6guzwd0yrrqqp0bmjlMP3ZZULY7fu8RTC4+3lmHwo6ESVDHFDsvjB15hcR5IA==
 
-vue@^2.5.21:
-  version "2.6.6"
-  resolved "https://registry.npmjs.org/vue/-/vue-2.6.6.tgz#dde41e483c11c46a7bf523909f4f2f816ab60d25"
-  integrity sha512-Y2DdOZD8sxApS+iUlwv1v8U1qN41kq6Kw45lM6nVZKhygeWA49q7VCCXkjXqeDBXgurrKWkYQ9cJeEJwAq0b9Q==
+vue@^2.6.10:
+  version "2.6.10"
+  resolved "https://registry.npmjs.org/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
+  integrity sha512-ImThpeNU9HbdZL3utgMCq0oiMzAkt1mcgy3/E6zWC/G6AaQoeuFdsl9nDhTDU3X1R6FK7nsIUuRACVcjI+A2GQ==
 
 watchpack@^1.5.0:
   version "1.6.0"

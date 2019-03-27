@@ -12,7 +12,6 @@
 </template>
 
 <script>
-import { siteConfig } from 'saber/config'
 import SiteHeader from '../components/Header.vue'
 import SiteFooter from '../components/Footer.vue'
 import Channel from '../components/Channel.vue'
@@ -30,12 +29,12 @@ export default {
   head() {
     return {
       title: this.page.attributes.title
-        ? `${this.page.attributes.title} - ${siteConfig.title}`
-        : siteConfig.title,
+        ? `${this.page.attributes.title} - ${this.$siteConfig.title}`
+        : this.$siteConfig.title,
       meta: [
         {
           name: 'description',
-          content: siteConfig.description
+          content: this.$siteConfig.description
         }
       ]
     }
