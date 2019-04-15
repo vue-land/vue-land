@@ -1209,10 +1209,10 @@ builtin-status-codes@^3.0.0:
   resolved "https://registry.npmjs.org/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
   integrity sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=
 
-cac@^6.4.0:
-  version "6.4.2"
-  resolved "https://registry.npmjs.org/cac/-/cac-6.4.2.tgz#6b2a2ab12619b778b3acc19f97e5298761d9c3de"
-  integrity sha512-HM7kl/Izk6pb2HD7z66LVNU52j0xWpBXg8J2MLnOdRMUo2wsrcxu3yRnubnDe/cT0btDzSOl3FPhze09uaT1Vw==
+cac@^6.5.1:
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/cac/-/cac-6.5.1.tgz#c5685ebc20a8448558191d70a2a76636640308a0"
+  integrity sha512-mqKv0Ub/nXSoqlACRvrso3k7+nCdzUNimdh+3l0ywDNt27d/x5s/zEg2Ubf1MrsV5Q/DncxtXhNJLrJN6zq1jQ==
 
 cacache@^11.0.2:
   version "11.3.2"
@@ -3005,10 +3005,10 @@ jest-validate@^23.5.0:
     leven "^2.1.0"
     pretty-format "^23.6.0"
 
-joycon@^2.2.3:
-  version "2.2.4"
-  resolved "https://registry.npmjs.org/joycon/-/joycon-2.2.4.tgz#ac4119d2673dfaa89b41efe5d6d670208e348bc6"
-  integrity sha512-Z4G7ZPovoSfAHCSEKznWV4IjyyUxzTY78Sgtr8inbnRxaZMAQGwqNJ46BDwcH3WgIwk0Xt1kpCsC/DFAioRtBA==
+joycon@^2.2.4:
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/joycon/-/joycon-2.2.5.tgz#8d4cf4cbb2544d7b7583c216fcdfec19f6be1615"
+  integrity sha512-YqvUxoOcVPnCp0VU1/56f+iKSdvIRJYPznH22BdXV3xMk75SFXhWeJkZ8C9XxUWt1b5x2X1SxuFygW1U0FmkEQ==
 
 js-levenshtein@^1.1.3:
   version "1.1.6"
@@ -3731,7 +3731,7 @@ number-is-nan@^1.0.0:
   resolved "https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-object-assign@^4.1.0:
+object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
@@ -4696,25 +4696,25 @@ rxjs@^6.1.0:
   dependencies:
     tslib "^1.9.0"
 
-saber-log@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.npmjs.org/saber-log/-/saber-log-0.1.1.tgz#a111d5ea45b1ee62f326e8f14bfeff3942e19d1d"
-  integrity sha512-aJPHNH9mIQCdBSXqba7isvxWj4qq1SpwIzTKHC1d59QlftbvWSG+12X92ADvdsfj03G3yu1/2U9Vty9tykXjGA==
+saber-log@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/saber-log/-/saber-log-0.2.0.tgz#6c4a803a3d8c89f243580f0d7259e396220286d6"
+  integrity sha512-S0KbP6uktP0g75t+QG7sx1dkib/S1TyhOxPKFj9325eYVJOYi6ECfyeWiuYsma35MxqJTlFp4Dxw7U57JEjvSA==
 
 saber-markdown@^0.0.3:
   version "0.0.3"
   resolved "https://registry.npmjs.org/saber-markdown/-/saber-markdown-0.0.3.tgz#342a905040178cdd17766841c855c5152d120a2f"
   integrity sha512-Eu9vom2KqDY9a4/7gyU3QUG2QfLpu0+Yt48TZ5OZqW3ER77xutu7VKOJvjmIpo9ma9rgeKCpEQjYHAlpKC+bGw==
 
-saber-utils@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.npmjs.org/saber-utils/-/saber-utils-0.0.4.tgz#15b5e3458445a2ef097cc2505dc3bbcbbdf32c9a"
-  integrity sha512-U3srXEi7pSj15TgJn60qkY5wsgLoTFT/8oW0iJdZUe7DAybZRZrBK9I0WLWAz0DVx0FdigBd0zQjNmvq5KfGiQ==
+saber-utils@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/saber-utils/-/saber-utils-0.1.0.tgz#4a9b114aad02aa9fab3ec2daeb2b7f5e9f9dff2e"
+  integrity sha512-7doIJMmdWG41BlpeC36WbtLzZw/B/Vt2Cds4geIZCPWCyTg4nOKWsVgfQ+502CNqJkOPnz8D+joHb+UcmjaxRg==
 
-saber@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.npmjs.org/saber/-/saber-0.3.1.tgz#0c969658629be37194345b384d9df1009ebc33a4"
-  integrity sha512-0JRpZiUzfREKNgV6BTAgbIMNxkM6Lu52LpNPKDV6RFYCH9M6jEH+fSoUOs6wa/PIhNdey25E8P/f+YZF3jMSKA==
+saber@^0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/saber/-/saber-0.4.3.tgz#c26481783eaa76e3341390cf1cfd9398923cf220"
+  integrity sha512-yQQ0m9090qhaNZFmcUHSYsa9F1aodk4cYVYNW7nRQQljJ/0z3RSY4t3sZvQ7RB9l7G9zMRU9cMMI1Q1sEwhZZw==
   dependencies:
     "@babel/core" "^7.2.2"
     "@babel/plugin-proposal-object-rest-spread" "^7.2.0"
@@ -4725,23 +4725,24 @@ saber@^0.3.1:
     "@egoist/postcss-loader" "^3.0.2"
     "@intervolga/optimize-cssnano-plugin" "^1.0.6"
     babel-loader "^8.0.5"
-    cac "^6.4.0"
+    cac "^6.5.1"
     chokidar "^2.0.4"
     css-loader "^2.1.0"
     cssnano "^4.1.8"
     fast-deep-equal "^2.0.1"
     file-loader "^3.0.1"
     hash-sum "^1.0.2"
-    joycon "^2.2.3"
+    joycon "^2.2.4"
     lodash.merge "^4.6.1"
     mini-css-extract-plugin "^0.5.0"
+    object-assign "^4.1.1"
     ora "^3.2.0"
     polka "^0.5.1"
     pretty-ms "^4.0.0"
     resolve-from "^4.0.0"
-    saber-log "^0.1.1"
+    saber-log "^0.2.0"
     saber-markdown "^0.0.3"
-    saber-utils "^0.0.4"
+    saber-utils "^0.1.0"
     serve-static "^1.13.2"
     superstruct "^0.6.0"
     tapable "^1.1.1"
