@@ -12,3 +12,13 @@ This will be a community-driven server so feel free to suggest new text channels
 3. **Don’t be afraid to ask.** There’s not such thing as a stupid question. We’re here to learn and we encourage people to ask questions about anything Vue related. However it would save both you and the others a good amount of time if you format your message correctly and reference a link to codepen.io / codesandbox.io whenever possible. Moderators are there in case you have any furthur questions regarding Discord usage.
 
 4. **No spam.** Nobody likes spam so let’s keep this server clean and relevant. Duplicated messages and ads might be deleted.
+
+<script>
+import Channel from '#theme/components/Channel.vue'
+
+export default {
+  components: {
+    Channel
+  }
+}
+</script>
