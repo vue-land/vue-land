@@ -10,6 +10,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'saber-plugin-google-analytics',
+      options: {
+        trackId: 'UA-54857209-19'
+      }
+    },
+    {
       resolve: 'saber-plugin-pwa'
     }
   ]
