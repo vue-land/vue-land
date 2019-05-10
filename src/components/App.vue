@@ -1,7 +1,9 @@
 <template>
-  <div id="_saber">
-    <media query="(min-width: 768px)"> <badge slug="egoist/vue-land" /> </media>
-    <router-view />
+  <div id="app">
+    <media query="(min-width: 768px)">
+      <badge slug="egoist/vue-land" />
+    </media>
+    <slot />
   </div>
 </template>
 
