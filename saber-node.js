@@ -16,10 +16,8 @@ exports.onCreatePages = function() {
     }
   }
   if (qaPage) {
-    this.pages.extendPageProp(qaPage.internal.id, {
-      qas: qas.sort((a, b) => {
-        return a.id > b.id ? 1 : -1
-      })
+    qaPage.qas = qas.sort((a, b) => {
+      return a.id > b.id ? 1 : -1
     })
   }
 }
