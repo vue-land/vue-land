@@ -14,9 +14,6 @@ module.exports = {
       options: {
         trackId: 'UA-54857209-19'
       }
-    },
-    {
-      resolve: 'saber-plugin-pwa'
     }
   ]
 }
