@@ -5510,15 +5510,15 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typeface-space-mono@^0.0.22:
-  version "0.0.22"
-  resolved "https://registry.npmjs.org/typeface-space-mono/-/typeface-space-mono-0.0.22.tgz#a63b545b04e471ce45e576292ab5ee0134112169"
-  integrity sha1-pjtUWwTkcc5F5XYpKrXuATQRIWk=
+typeface-space-mono@^0.0.71:
+  version "0.0.71"
+  resolved "https://registry.yarnpkg.com/typeface-space-mono/-/typeface-space-mono-0.0.71.tgz#19cf08b118a3e0042d6eb399f8fc72a3138c73da"
+  integrity sha512-v5vMp/kIMPfnHjui3OxdchAdseXydcpZ3eh01xnU+JNA4tqKH/KK/7e+LWC/pscS96+pqgMgyIOrdXWzDjT8MA==
 
-typeface-work-sans@^0.0.22:
-  version "0.0.22"
-  resolved "https://registry.npmjs.org/typeface-work-sans/-/typeface-work-sans-0.0.22.tgz#699c1056c4dfad846c0aeea65f7becac8743cc0d"
-  integrity sha1-aZwQVsTfrYRsCu6mX3vsrIdDzA0=
+typeface-work-sans@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-work-sans/-/typeface-work-sans-0.0.72.tgz#2b40abbda07e2cf6d9fbd9d334bb8c3014c80e32"
+  integrity sha512-hJa+mh217r4qlEq0zK0Aqn7chyDzJYziObsd9nokEd0lMBKbGNf/10VHS3AqeVKDye3evfTvZ11tmj5WizIJrA==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
