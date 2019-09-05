@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <media query="(min-width: 768px)">
-      <badge slug="egoist/vue-land" />
+      <badge slug="vue-land/vue-land" />
     </media>
     <slot />
   </div>

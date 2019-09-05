@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "A chat community for library authors, contributors, end users on the Vue land.",
   "repository": {
-    "url": "EGOIST/vue-land",
+    "url": "vue-land/vue-land",
     "type": "git"
   },
   "scripts": {

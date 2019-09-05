@@ -1,6 +1,6 @@
-# vue-land [![badge](https://img.shields.io/discord/325477692906536972.svg)](https://vue-land.js.org)
+# vue-land [![badge](https://img.shields.io/discord/325477692906536972.svg)](https://vue.land)
 
-See https://vue-land.js.org
+See https://vue.land
 
 ## Development
 

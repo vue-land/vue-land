@@ -60,7 +60,7 @@ export default {
     async fetchList() {
       this.loading = true
       const { data } = await axios.get(
-        `https://api.github.com/repos/egoist/vue-land/issues?labels=poll&state=${
+        `https://api.github.com/repos/vue-land/vue-land/issues?labels=poll&state=${
           this.state
         }`
       )
