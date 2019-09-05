@@ -8,8 +8,8 @@ See https://vue.land
 # dev server
 yarn dev
 
-# generate static website
-yarn generate
+# build for production
+yarn build
 ```
 
 The website is automatically deployed to Netlify.
