@@ -2,8 +2,8 @@
   <div class="page container">
     <site-header />
     <div class="site-main">
-      <div class="page-title" v-if="page.attributes.title">
-        {{ page.attributes.title }}
+      <div class="page-title" v-if="page.title">
+        {{ page.title }}
       </div>
       <div class="site-content"><slot name="default" /></div>
     </div>
@@ -28,8 +28,8 @@ export default {
   props: ['page'],
   head() {
     return {
-      title: this.page.attributes.title
-        ? `${this.page.attributes.title} - ${this.$siteConfig.title}`
+      title: this.page.title
+        ? `${this.page.title} - ${this.$siteConfig.title}`
         : this.$siteConfig.title,
       meta: [
         {

@@ -4,14 +4,14 @@ exports.onCreatePages = function() {
   let qaPage
   const qas = []
   for (const page of this.pages.values()) {
-    if (page.attributes.permalink.startsWith('/q-and-a/')) {
+    if (page.permalink.startsWith('/q-and-a/')) {
       qas.push({
         id: parseInt(path.basename(page.internal.relative), 10),
-        title: page.attributes.title,
-        date: page.attributes.date,
-        permalink: page.attributes.permalink
+        title: page.title,
+        date: page.date,
+        permalink: page.permalink
       })
-    } else if (page.attributes.permalink === '/q-and-a') {
+    } else if (page.permalink === '/q-and-a') {
       qaPage = page
     }
   }
