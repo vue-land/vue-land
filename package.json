@@ -33,7 +33,7 @@
     "raw-loader": "^0.5.1",
     "saber": "^0.9.0",
     "saber-plugin-google-analytics": "^0.2.1",
-    "stylus": "^0.54.5",
+    "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2"
   },
   "lint-staged": {
