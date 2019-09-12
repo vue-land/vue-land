@@ -6248,10 +6248,10 @@ timsort@^0.3.0:
   resolved "https://registry.npmjs.org/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
-tinydate@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/tinydate/-/tinydate-1.0.1.tgz#5e38797e2e3e79ce2300543f586c6caa2dfcf668"
-  integrity sha512-Imqa6iv3Ig5FmC3ESwmqczusIn1h8D5RqNbpatGc1eLHeoytuhodbsAPpSJ8iKiLhxBtLuRsrywWHlJM1bA3Rg==
+tinydate@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/tinydate/-/tinydate-1.2.0.tgz#36b4bb02715f89743f3ef9073d3573d005a28d0e"
+  integrity sha512-3GwPk8VhDFnUZ2TrgkhXJs6hcMAIIw4x/xkz+ayK6dGoQmp2nUwKzBXK0WnMsqkh6vfUhpqQicQF3rbshfyJkg==
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
