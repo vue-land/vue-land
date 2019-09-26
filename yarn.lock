@@ -5513,10 +5513,10 @@ saber-log@^0.3.0:
   resolved "https://registry.yarnpkg.com/saber-log/-/saber-log-0.3.0.tgz#946b5a964e23b73aefe3fd2b86836641d2f1ad23"
   integrity sha512-zXNL8E8bJYznYvZkNKdDyIjcg1jCHbyk17aaPHR315GKK919KGAtr7aAWe6Hj6VfV+yPe/VUFKmru8YjoXJJ1A==
 
-saber-markdown@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/saber-markdown/-/saber-markdown-0.1.2.tgz#235e2864c06ab946bec1892b63d30bce0da2c2c8"
-  integrity sha512-krvmz4VPuH1C4vfkryMqA+6llmqgmv9KbItul9KptqvAwB7Ivs419nQzRK4mCbIsfEkFYwTxLFWGDfC9zPAMAA==
+saber-markdown@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/saber-markdown/-/saber-markdown-0.1.3.tgz#ae5ae1b74c2ed8d2838fb6795345eb3563ea05d0"
+  integrity sha512-MevxkvdMs5Uk+gqwRU0ULuZR38kgJX+vL1rc6G6cZi1/T6tuypOqoIbaOzRXhMG4OYghL/dIZ0Anz1imJCSxVQ==
 
 saber-plugin-google-analytics@^0.2.1:
   version "0.2.1"
@@ -5528,10 +5528,10 @@ saber-utils@^0.2.2:
   resolved "https://registry.yarnpkg.com/saber-utils/-/saber-utils-0.2.2.tgz#48c60d83ec4982b7c6f4de1b9159cf6efb1d00cc"
   integrity sha512-JL3F4LCE+woGUdUpOYohaSYkN13/CFCwdvZCcP8ACLOdo9ip7GXAcUK0hkfDgiLX9YIlMEeSfC1yOUpH7/PiAQ==
 
-saber@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/saber/-/saber-0.9.0.tgz#4a5e6cd5a5e2623c742300f20e3f346028b781be"
-  integrity sha512-c9sBxxRWSYZ5qlk0BnYT1PShEHD4KWUIokztrIgghNw5AAKWEUWSmh450Ns8H0YBht57zcRMy+NyIQOYtm9ymg==
+saber@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/saber/-/saber-0.9.1.tgz#8682fc15bbca28c26c0d0dc88025549e26223d5f"
+  integrity sha512-FZYWz1sz/2sKzQJ2/UPlb6woaTlztPxQHnqUBd1vpWZ9MYl6o4sQarnnwg5StUAcIOaUfTH1rnFoUDyBBZemOg==
   dependencies:
     "@babel/core" "^7.5.4"
     "@babel/plugin-proposal-object-rest-spread" "^7.5.4"
@@ -5564,7 +5564,7 @@ saber@^0.9.0:
     pretty-ms "^5.0.0"
     resolve-from "^5.0.0"
     saber-log "^0.3.0"
-    saber-markdown "^0.1.2"
+    saber-markdown "^0.1.3"
     saber-utils "^0.2.2"
     serve-static "^1.13.2"
     slugo "^0.2.3"
