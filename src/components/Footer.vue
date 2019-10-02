@@ -5,6 +5,9 @@
     <saber-link to="/guideline">Guideline</saber-link> &bull;
     <saber-link to="/polls">Polls</saber-link> &bull;
     <a href="https://twitter.com/VueLandDiscord">Twitter</a>
+    <div class="built-with">
+      This site is built using <a href="https://saber.land">Saber</a>.
+    </div>
   </div>
 </template>
 
@@ -28,5 +31,10 @@ export default {
     text-decoration: none;
     color: #dd1d64;
   }
+}
+
+.built-with {
+  font-size: .85rem;
+  margin-top: 10px;
 }
 </style>

@@ -6,10 +6,10 @@ See https://vue.land
 
 ```bash
 # dev server
-yarn dev
+npm run dev
 
 # build for production
-yarn build
+npm run build
 ```
 
 The website is automatically deployed to Netlify.
