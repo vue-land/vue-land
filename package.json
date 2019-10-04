@@ -22,7 +22,7 @@
     "vue-github-badge": "^1.0.1",
     "vue-inline": "^1.0.1",
     "vue-media": "^1.0.0",
-    "vue-no-ssr": "^0.1.2"
+    "vue-no-ssr": "^1.1.1"
   },
   "license": "MIT",
   "devDependencies": {
