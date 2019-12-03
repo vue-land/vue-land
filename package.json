@@ -29,7 +29,7 @@
     "lint-staged": "^9.4.2",
     "prettier": "^1.18.2",
     "raw-loader": "^3.1.0",
-    "saber": "^0.11.3",
+    "saber": "^0.11.4",
     "saber-plugin-google-analytics": "^0.2.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2"
